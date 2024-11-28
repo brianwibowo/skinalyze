@@ -5,12 +5,20 @@ plugins {
 
 android {
     namespace = "com.dicoding.skinalyze"
+<<<<<<< HEAD
     compileSdk = 35
+=======
+    compileSdk = 34
+>>>>>>> fa95419b5d2154a44d780bb1930917f9deab17b1
 
     defaultConfig {
         applicationId = "com.dicoding.skinalyze"
         minSdk = 24
+<<<<<<< HEAD
         targetSdk = 35
+=======
+        targetSdk = 34
+>>>>>>> fa95419b5d2154a44d780bb1930917f9deab17b1
         versionCode = 1
         versionName = "1.0"
 
@@ -48,6 +56,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+<<<<<<< HEAD
     implementation(libs.androidx.legacy.support.v4)
     implementation(libs.androidx.fragment.ktx)
     testImplementation(libs.junit)
@@ -55,4 +64,9 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation (libs.circleimageview)
+=======
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+>>>>>>> fa95419b5d2154a44d780bb1930917f9deab17b1
 }

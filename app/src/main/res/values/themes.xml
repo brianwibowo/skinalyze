@@ -2,7 +2,11 @@
     <!-- Base application theme. -->
     <style name="Theme.Skinalyze" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
+<<<<<<< HEAD
         <item name="colorPrimary">@color/blue_primary</item>
+=======
+        <item name="colorPrimary">@color/purple_500</item>
+>>>>>>> fa95419b5d2154a44d780bb1930917f9deab17b1
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->

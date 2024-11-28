@@ -12,6 +12,7 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+<<<<<<< HEAD
         android:id="@+id/navigation_history"
         android:name="com.dicoding.skinalyze.ui.history.HistoryFragment"
         android:label="@string/title_scan_history"
@@ -28,4 +29,16 @@
         android:name="com.dicoding.skinalyze.ui.userprofile.UserFragment"
         android:label="@string/title_user_profile"
         tools:layout="@layout/fragment_user" />
+=======
+        android:id="@+id/navigation_dashboard"
+        android:name="com.dicoding.skinalyze.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.dicoding.skinalyze.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+>>>>>>> fa95419b5d2154a44d780bb1930917f9deab17b1
 </navigation>

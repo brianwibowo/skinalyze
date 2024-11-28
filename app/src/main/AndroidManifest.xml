@@ -15,7 +15,11 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
+<<<<<<< HEAD
             android:theme="@style/Theme.Skinalyze">
+=======
+            android:label="@string/app_name">
+>>>>>>> fa95419b5d2154a44d780bb1930917f9deab17b1
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
